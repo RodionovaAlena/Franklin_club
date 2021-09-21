@@ -1,18 +1,18 @@
-let a = promt('Введите 1 число');
-let b = promt('Введите 2 число');
-let c = promt('Введите 3 число');
+let a = 4;
+let b = 4;
+let c = 6;
 
-if (a<b && a>c || a>b && a<c) {
+if (a<=b && a>=c || a>=b && a<=c) {
     let average = a;
-    alert(average);
+    console.log(average);
 }
 
-    if (b<a && b>c || b>a && b<c) {
-        let average = b;
-        alert(average);
-    }
+if (b<=a && b>=c || b>=a && b<=c) {
+    let average = b;
+    console.log(average);
+}
 
-        if (c<a && c>b || c>a && c<b) {
-            let average = c;
-            alert(average);
-        }
+if (c<=a && c>=b || c>=a && c<=b) {
+    let average = c;
+    console.log(average);
+}
