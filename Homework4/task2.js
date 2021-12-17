@@ -1,4 +1,4 @@
-let n = 4;
+let n = 6;
 
 for (let i = n/2; i <= n; i++) {
 
@@ -8,5 +8,5 @@ for (let i = n/2; i <= n; i++) {
 
   }
 
-  console.log(i);
+  console.log(Math.floor(i));
 }
